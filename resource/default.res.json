@@ -1,0 +1,312 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,gameEui_json",
+			"name": "preload"
+		},
+		{
+			"keys": "loadingBG_jpg,loading_json,loading_png,num_png,moveBG_png,num_fnt",
+			"name": "loading"
+		},
+		{
+			"keys": "bg3_jpg,page1_1_json,page1_1_png,page1_2_json,bg1_jpg,bg2_jpg,circle_json,chuansuo1_jpg,chuansuo10_jpg,chuansuo11_jpg,chuansuo12_jpg,chuansuo13_jpg,chuansuo14_jpg,chuansuo15_jpg,chuansuo2_jpg,chuansuo3_jpg,chuansuo4_jpg,chuansuo5_jpg,chuansuo6_jpg,chuansuo7_jpg,chuansuo8_jpg,chuansuo9_jpg,bg_1_jpg,page2_1_json,bg_2_jpg,page2_2_json,bg_3_jpg,page2_3_json,bg_4_jpg,page2_4_json,bg_5_jpg,page2_5_json,p1_bg_1_jpg,p2_bg_jpg,p3_bg_jpg,p4_bg_jpg,p_bg_jpg,page_1_json,page_10_json,page_2_json,page_3_json,page_4_json,page_5_json,page_6_json,page_7_json,page_8_json,page_9_json",
+			"name": "page"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/game/loading/loadingBG.jpg",
+			"type": "image",
+			"name": "loadingBG_jpg"
+		},
+		{
+			"url": "gameEui.json",
+			"type": "json",
+			"name": "gameEui_json"
+		},
+		{
+			"url": "assets/game/loading/loading.json",
+			"type": "sheet",
+			"name": "loading_json",
+			"subkeys": "loading_bar1_png,loading_bar2_png,loading_icon_png"
+		},
+		{
+			"url": "assets/game/loading/loading.png",
+			"type": "image",
+			"name": "loading_png"
+		},
+		{
+			"url": "assets/game/loading/num.png",
+			"type": "image",
+			"name": "num_png"
+		},
+		{
+			"url": "assets/game/loading/moveBG.png",
+			"type": "image",
+			"name": "moveBG_png"
+		},
+		{
+			"url": "assets/game/loading/num.fnt",
+			"type": "font",
+			"name": "num_fnt"
+		},
+		{
+			"url": "assets/game/page1/bg3.jpg",
+			"type": "image",
+			"name": "bg3_jpg"
+		},
+		{
+			"url": "assets/game/page1/page1_1.png",
+			"type": "image",
+			"name": "page1_1_png"
+		},
+		{
+			"url": "assets/game/page1/page1_1.json",
+			"type": "sheet",
+			"name": "page1_1_json",
+			"subkeys": "msk2_png,msk_png,p1_bg_png,p1_btn1_light1_png,p1_btn1_light2_png,p1_btn1_png,p1_btn1_text1_png,p1_btn1_text2_png,p1_btn1_text3_png,p1_btn1_text4_png,p1_btn2_light_png,p1_btn2_png,p1_btn2_text_png,p1_height_1_png,p1_height_2_png,p1_height_3_png,p1_icon1_10_png,p1_icon1_11_png,p1_icon1_12_png,p1_icon1_13_png,p1_icon1_14_png,p1_icon1_15_png,p1_icon1_16_png,p1_icon1_17_png,p1_icon1_18_png,p1_icon1_19_png,p1_icon1_1_png,p1_icon1_20_png,p1_icon1_21_png,p1_icon1_22_png,p1_icon1_23_png,p1_icon1_24_png,p1_icon1_2_png,p1_icon1_3_png,p1_icon1_4_png,p1_icon1_5_png,p1_icon1_6_png,p1_icon1_7_png,p1_icon1_8_png,p1_icon1_9_png"
+		},
+		{
+			"url": "assets/game/page1/page1_2.json",
+			"type": "sheet",
+			"name": "page1_2_json",
+			"subkeys": "p1_icon1_25_png,p1_icon1_26_png,p1_icon1_27_png,p1_icon1_28_png,p1_icon1_29_png,p1_icon1_30_png,p1_icon2_1_png,p1_icon2_2_png,p1_icon2_3_png,p1_icon2_4_png,p1_icon2_5_png,p1_icon2_6_png,p1_icon2_7_png,p1_icon2_8_png,p1_light1_png,p1_light_1_png,p1_light_2_png,p1_light_png,p1_num1_png,p1_num2_png,p1_num3_png,p1_num4_png,p1_num5_png,p1_num6_png,p1_num7_png,p1_prop1_png,p1_prop2_png,p1_prop_light_1_png,p1_prop_light_2_png,p1_star1_png,p1_star2_png,p1_text1_1_png,p1_text1_png,p1_text2_10_png,p1_text2_11_png,p1_text2_12_png,p1_text2_13_png,p1_text2_14_png,p1_text2_15_png,p1_text2_16_png,p1_text2_17_png,p1_text2_18_png,p1_text2_19_png,p1_text2_1_png,p1_text2_20_png,p1_text2_21_png,p1_text2_2_png,p1_text2_3_png,p1_text2_4_png,p1_text2_5_png,p1_text2_6_png,p1_text2_7_png,p1_text2_8_png,p1_text2_9_png,p1_text3_10_png,p1_text3_11_png,p1_text3_12_png,p1_text3_13_png,p1_text3_14_png,p1_text3_15_png,p1_text3_16_png,p1_text3_17_png,p1_text3_18_png,p1_text3_19_png,p1_text3_1_png,p1_text3_2_png,p1_text3_3_png,p1_text3_4_png,p1_text3_5_png,p1_text3_6_png,p1_text3_7_png,p1_text3_8_png,p1_text3_9_png,p1_text4_1_png,p1_text4_2_png,p1_title1_png,p1_title2_png,p1_title_light1_png,p1_title_light2_png,p1_title_light3_png,p1_title_light4_png,p1_title_png,point_png"
+		},
+		{
+			"url": "assets/game/page1/bg1.jpg",
+			"type": "image",
+			"name": "bg1_jpg"
+		},
+		{
+			"url": "assets/game/page1/bg2.jpg",
+			"type": "image",
+			"name": "bg2_jpg"
+		},
+		{
+			"url": "assets/game/page1/circle.json",
+			"type": "sheet",
+			"name": "circle_json",
+			"subkeys": "circle0_11_png,circle0_13_png,circle0_14_png,circle0_15_png,circle0_16_png,circle0_17_png,circle0_18_png,circle0_1_png,circle0_2_png,circle0_3_png,circle0_4_png,circle0_5_png,circle0_6_png,circle0_7_png,circle0_8_png,circle0_9_png,circle0_bg_png,circle0_msk_png"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo1.jpg",
+			"type": "image",
+			"name": "chuansuo1_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo10.jpg",
+			"type": "image",
+			"name": "chuansuo10_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo11.jpg",
+			"type": "image",
+			"name": "chuansuo11_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo12.jpg",
+			"type": "image",
+			"name": "chuansuo12_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo13.jpg",
+			"type": "image",
+			"name": "chuansuo13_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo14.jpg",
+			"type": "image",
+			"name": "chuansuo14_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo15.jpg",
+			"type": "image",
+			"name": "chuansuo15_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo2.jpg",
+			"type": "image",
+			"name": "chuansuo2_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo3.jpg",
+			"type": "image",
+			"name": "chuansuo3_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo4.jpg",
+			"type": "image",
+			"name": "chuansuo4_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo5.jpg",
+			"type": "image",
+			"name": "chuansuo5_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo6.jpg",
+			"type": "image",
+			"name": "chuansuo6_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo7.jpg",
+			"type": "image",
+			"name": "chuansuo7_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo8.jpg",
+			"type": "image",
+			"name": "chuansuo8_jpg"
+		},
+		{
+			"url": "assets/game/chuansuo/chuansuo9.jpg",
+			"type": "image",
+			"name": "chuansuo9_jpg"
+		},
+		{
+			"url": "assets/game/page2_1/bg_1.jpg",
+			"type": "image",
+			"name": "bg_1_jpg"
+		},
+		{
+			"url": "assets/game/page2_1/page2_1.json",
+			"type": "sheet",
+			"name": "page2_1_json",
+			"subkeys": "p2_2_prop_icon1_png,p2_2_prop_icon2_png,p2_2_prop_icon3_png,p2_2_prop_icon4_png,p2_2_prop_icon5_png,p2_2_prop_icon6_png,p2_2_prop_light_png,p2_2_prop_line_png,p2_2_prop_png,p2_2_text1_frame1_png,p2_2_text1_png,p2_2_text2_frame1_png,p2_2_text2_png,p2_2_text3_frame1_png,p2_2_text3_png,p2_2_title_png,p2_4_text1_frame2_png,p2_4_text1_frame3_png,p2_4_text1_frame4_png,p2_4_text1_frame5_png,s1_img_1_png,s1_img_2_png,s1_img_3_png,s1_img_4_png,s1_img_5_png,s1_img_6_png,s1_img_7_png,s2_img_1_png,s2_img_2_png,s2_img_3_png,s2_img_4_png,s2_img_5_png,s2_img_6_png,s2_img_7_png,s3_img_1_png,s3_img_2_png,s3_img_3_png,s3_img_4_png,s3_img_5_png,s3_img_6_png,s3_img_7_png,s3_img_8_png,t_bottom_png,t_g_1_png,t_g_2_png,t_g_3_png,t_g_4_png,top_zhuan_png"
+		},
+		{
+			"url": "assets/game/page2_2/page2_2.json",
+			"type": "sheet",
+			"name": "page2_2_json",
+			"subkeys": "bg_2_bottom2_png,bg_2_bottom_png,msk3_png,p2_1_icon1_png,p2_1_icon2_png,p2_1_line1_png,p2_1_line2_png,p2_1_line3_png,p2_1_line_light1_png,p2_1_line_light2_png,p2_1_line_light3_png,p2_1_line_light4_png,p2_1_text1_png,p2_1_text2_light1_png,p2_1_text2_light2_png,p2_1_text2_light3_png,p2_1_text2_light4_png,p2_1_text2_light5_png,p2_1_text2_png,p2_1_text3_light1_png,p2_1_text3_light2_png,p2_1_text3_light3_png,p2_1_text3_light4_png,p2_1_text3_png,p2_1_text_frame1_png,p2_1_text_frame2_png,p2_1_text_frame3_png,p2_1_text_light1_png,p2_1_text_light2_png,p2_1_text_light3_png,p2_1_text_light4_png,p2_1_title_frame1_png,p2_1_title_frame2_png,p2_1_title_light1_png,p2_1_title_light2_png,p2_1_title_light3_png,p2_1_title_light4_png,p2_1_title_light5_png,p2_1_title_png"
+		},
+		{
+			"url": "assets/game/page2_2/bg_2.jpg",
+			"type": "image",
+			"name": "bg_2_jpg"
+		},
+		{
+			"url": "assets/game/page2_3/page2_3.json",
+			"type": "sheet",
+			"name": "page2_3_json",
+			"subkeys": "p2_3_prop_light1_png,p2_3_prop_light2_png,p2_3_prop_light3_png,p2_3_prop_line_png,p2_3_text1_frame1_png,p2_3_text1_png,p2_3_text2_frame1_png,p2_3_text2_png,p2_3_text3_frame1_png,p2_3_text3_png,p2_3_title_png"
+		},
+		{
+			"url": "assets/game/page2_3/bg_3.jpg",
+			"type": "image",
+			"name": "bg_3_jpg"
+		},
+		{
+			"url": "assets/game/page2_4/bg_4.jpg",
+			"type": "image",
+			"name": "bg_4_jpg"
+		},
+		{
+			"url": "assets/game/page2_5/bg_5.jpg",
+			"type": "image",
+			"name": "bg_5_jpg"
+		},
+		{
+			"url": "assets/game/page2_4/page2_4.json",
+			"type": "sheet",
+			"name": "page2_4_json",
+			"subkeys": "bg_4_bottom_png,p2_4_icon_bg_png,p2_4_icon_light_png,p2_4_icon_png,p2_4_text1_frame1_png,p2_4_text1_png,p2_4_text2_frame1_png,p2_4_text2_png,p2_4_text3_frame1_png,p2_4_text3_png,p2_4_title_png"
+		},
+		{
+			"url": "assets/game/page2_5/page2_5.json",
+			"type": "sheet",
+			"name": "page2_5_json",
+			"subkeys": "p2_5_prop_light_png,p2_5_prop_png,p2_5_text1_frame1_png,p2_5_text1_png,p2_5_text2_frame1_png,p2_5_text2_png,p2_5_text3_frame1_png,p2_5_text3_png,p2_5_title_png"
+		},
+		{
+			"url": "assets/game/page_end/p1_bg_1.jpg",
+			"type": "image",
+			"name": "p1_bg_1_jpg"
+		},
+		{
+			"url": "assets/game/page_end/p2_bg.jpg",
+			"type": "image",
+			"name": "p2_bg_jpg"
+		},
+		{
+			"url": "assets/game/page_end/p3_bg.jpg",
+			"type": "image",
+			"name": "p3_bg_jpg"
+		},
+		{
+			"url": "assets/game/page_end/p4_bg.jpg",
+			"type": "image",
+			"name": "p4_bg_jpg"
+		},
+		{
+			"url": "assets/game/page_end/p_bg.jpg",
+			"type": "image",
+			"name": "p_bg_jpg"
+		},
+		{
+			"url": "assets/game/page_end/page_1.json",
+			"type": "sheet",
+			"name": "page_1_json",
+			"subkeys": "mak_mak_png,p2_img_1_png,p2_img_2_png,p2_img_3_png"
+		},
+		{
+			"url": "assets/game/page_end/page_10.json",
+			"type": "sheet",
+			"name": "page_10_json",
+			"subkeys": "p1_mak_png,p1_qBg_1_png,p_btn_png"
+		},
+		{
+			"url": "assets/game/page_end/page_2.json",
+			"type": "sheet",
+			"name": "page_2_json",
+			"subkeys": "p2_img_4_png,p2_img_5_png,p2_img_6_png"
+		},
+		{
+			"url": "assets/game/page_end/page_3.json",
+			"type": "sheet",
+			"name": "page_3_json",
+			"subkeys": "img2_mak_png,img_mak_4_png,img_mak_5_png,img_mak_6_png,img_mak_7_png,p2_img_7_png"
+		},
+		{
+			"url": "assets/game/page_end/page_4.json",
+			"type": "sheet",
+			"name": "page_4_json",
+			"subkeys": "an_jiao_png,gb_1_png,gb_2_png,gb_3_png,guan_dian_png,img2_kuan_png,img_mak_1_png,img_mak_2_png,img_mak_3_png,p4_btn_png,p_btn2_png,share1_png,share2_png"
+		},
+		{
+			"url": "assets/game/page_end/page_5.json",
+			"type": "sheet",
+			"name": "page_5_json",
+			"subkeys": "dna1_7_png,dna1_8_png,dna1_9_png,dna_png,logo_png,p4_dian_png,p4_dna_png,p4_gan_png,p4_guan_png,p4_tet_png,p4_txt_1_png,p4_txt_2_png,p4_txt_3_png,p4_txt_4_png,p4_txt_5_png,p4_txt_6_png,p4_txt_7_png,p4_txt_8_png"
+		},
+		{
+			"url": "assets/game/page_end/page_6.json",
+			"type": "sheet",
+			"name": "page_6_json",
+			"subkeys": "circle1_0_png,circle1_10_png,circle1_11_png,circle1_12_png,circle1_13_png,circle1_14_png,circle1_1_png,circle1_2_png,circle1_3_png,circle1_4_png,circle1_5_png,circle1_6_png,circle1_7_png,circle1_8_png,circle1_9_png,dna1_0_png,dna1_10_png,dna1_11_png,dna1_12_png,dna1_13_png,dna1_14_png,dna1_15_png,dna1_16_png,dna1_17_png,dna1_18_png,dna1_19_png,dna1_1_png,dna1_20_png,dna1_21_png,dna1_22_png,dna1_23_png,dna1_24_png,dna1_25_png,dna1_2_png,dna1_3_png,dna1_4_png,dna1_5_png,dna1_6_png,p3_bottom_png,p3_den2_png,p3_guan1_png,p3_guan2_png,p3_jq_png,p3_len_png,p3_lun_png,p3_mak_png,p3_nuan_png,p3_quan_png,p3_qui_png,p3_txt1_png,p3_txt2_png,p3_txt3_png,p3_yu_png,p_bg1_png"
+		},
+		{
+			"url": "assets/game/page_end/page_7.json",
+			"type": "sheet",
+			"name": "page_7_json",
+			"subkeys": "p1_ren_1_png,p1_ren_2_png,p1_ren_3_png,p1_ren_4_png,p1_ren_5_png,p1_ren_6_png,p1_ren_7_png,p1_txt_1_png,p_btn_1_png,p_btn_2_png,p_mak_png,p_x10_img1_png,p_x10_img2_png,p_x10_img3_png,p_x11_img_png,p_x11_kuan_png,p_x12_img_png,p_x12_kuan2_png,p_x12_kuan_png,p_x13_img1_png,p_x13_img2_png,p_x13_img3_png,p_x1_kuan_png,p_x1_zhu_png,p_x2_img_png,p_x2_kuan_png,p_x3_img_png,p_x4_img1_png,p_x4_img2_png,p_x5_kuan_png,p_x5_zhu_png,p_x6_kuan_png,p_x6_zhu_png,p_x7_img_png,p_x9_img_png,p_x9_kuan_png"
+		},
+		{
+			"url": "assets/game/page_end/page_8.json",
+			"type": "sheet",
+			"name": "page_8_json",
+			"subkeys": "p1_qBg_7_png,p1_tet_1_png,p1_tet_2_png,p1_tet_3_png,p1_tet_4_png,p1_tet_5_png,p1_tet_6_png,p1_tet_7_png,p1_txt_2_png,p1_txt_3_png,p1_txt_4_png,p1_txt_5_png,p1_txt_6_png,p1_txt_7_png,p_guan_png,p_kuan_png,p_lian_png,p_txt_png"
+		},
+		{
+			"url": "assets/game/page_end/page_9.json",
+			"type": "sheet",
+			"name": "page_9_json",
+			"subkeys": "p1_qBg_2_png,p1_qBg_3_png,p1_qBg_4_png,p1_qBg_5_png,p1_qBg_6_png"
+		}
+	]
+}

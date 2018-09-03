@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="test" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="page2_1_json.top_zhuan_png" x="434" y="272" anchorOffsetX="329" anchorOffsetY="236"/>
+</e:Skin>
